@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(10, 6, 17, 0.747);
+    text-align: center;
+}
+#head{
+    background-color: beige;
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
+    width: 40%;
+    position: absolute;
+    left: 400px;
+    border-style: solid;
+    border-color: black;
+}
+#colon{
+    color: white;
+    font-size: 50px;
+    height: 30px;
+    position: absolute;
+    left: 450px;
+    bottom: 350px;
+}
+#colon2{
+    color: white;
+    font-size: 50px;
+    height: 30px;
+    position: absolute;
+    left: 850px;
+    bottom: 350px;
+}
+#displayhour{
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    border-radius: 600px;
+    left: 150px;
+    bottom: 300px;
+}
+#displaymin{
+    background-color: green;
+    height: 200px;
+    width: 250px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    position: absolute;
+    left: 550px;
+    bottom: 300px;
+}
+#displaysec{
+    background-color: green;
+    height: 200px;
+    width: 250px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 300px;
+    position: absolute;
+    left:950px;
+    bottom: 300px;
+}
+.info{
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+.display_time{
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+}
+#footer{
+    background-color: beige;
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width:100%;
+}
